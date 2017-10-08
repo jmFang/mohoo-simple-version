@@ -1,0 +1,43 @@
+/*** keyboard_header ***/
+.keyboard_header{
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.keyboard_title{
+	font-size: 5rem;
+	position:absolute; 
+	top:20%; 
+	width: 100%;
+	color: white;
+	font-weight: bold;
+}
+.keyboard_foregin_title{
+	position:absolute; 
+	top: 34%; 
+	width: 100%;
+	font-size: 3rem;
+	color: white;
+	font-family: DIN Condensed;
+	z-index: 1;
+}
+@media (max-width: 768px) {
+	.keyboard_foregin_title{
+		font-size: 3vw;
+	}
+	.keyboard_title{
+		font-size: 5vw;
+	}
+	.keyboard-bkg{
+		height: 2vw !important;
+	}
+}
+.keyboard-bkg{
+	background-color: #f9812a;
+	width: 24%;
+	height: 20px;
+	position:absolute; 
+	top: 37%; 
+	right: 38%;
+	z-index: 0;
+}

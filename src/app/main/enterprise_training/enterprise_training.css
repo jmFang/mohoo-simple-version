@@ -1,0 +1,432 @@
+/*** enterprise_header ***/
+.enterprise_header{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    /*background-image: url("img/Photo.png");
+    background-position:0% 100%;
+    background-size:cover;
+    height: 580px;*/
+}
+.enterprise_title{
+    font-size: 5rem;
+    position:absolute; 
+    top:20%; 
+    width: 100%;
+    color: white;
+    font-weight: bold;
+}
+.foreign_title{
+    font-size: 3rem;
+    position:absolute; 
+    top: 34%; 
+    width: 100%;
+    color: white;
+    font-family: DIN Condensed;
+    z-index: 1;
+    /*background-color: #f99728;*/
+}
+.bkg{
+    background-color: #f99728;
+    width: 24%;
+    height: 1.4em;
+    position:absolute; 
+    top: 37%; 
+    right: 38%;
+    z-index: 0;
+}
+@media (max-width: 768px) {
+    .foreign_title{
+        font-size: 3vw;
+    }
+    .enterprise_title{
+        font-size: 5vw;
+    }
+    .bkg{
+        height: 2vw !important;
+    }
+}
+.main_img{
+    width:100%;
+    /*position: relative;
+    margin: -260px 0px 0 0;
+    z-index:0;*/
+}
+/*** enterprise_header ***/
+
+
+
+
+
+
+/*** Service_flow ***/
+/*title部分*/
+.Service_flow{
+    margin-top: 100px;
+    position: relative;
+}
+@media (max-width: 768px) {
+    .Service_flow{
+        width: 768px;
+    }
+}
+.Service_icon{
+    position: absolute;
+    right: 56%;
+    top: -0.2%;
+    width: 3%;
+}
+.Service_title{
+    color: #f99728;
+    font-size: 3rem;
+    /*background-image: url("img/服务流程icon.png");
+    background-repeat: no-repeat;
+    background-size:23px 23px;
+    background-position:44.5% 0%;*/
+}
+
+@media (max-width: 768px) and (min-width: 612px)  {
+    .Service_icon{
+        display: none;
+        /*position: absolute;
+        right: 61%;
+        top: -0.6%;
+        width: 25px;*/
+    }
+    .Service_title{
+        color: #f99728;
+        font-size: 2rem;
+        background-image: url("img/服务流程icon.png");
+        background-repeat: no-repeat;
+        background-size:23px 23px;
+        background-position:40% 0%;
+        
+    }
+}
+@media (max-width: 612px) and (min-width: 500px)  {
+    .Service_icon{
+        display: none;
+    }
+    .Service_title{
+        color: #f99728;
+        font-size: 2rem;
+        background-image: url("img/服务流程icon.png");
+        background-repeat: no-repeat;
+        background-size:23px 23px;
+        background-position:38% 0%;
+        
+    }
+}
+@media (max-width: 500px) {
+    .Service_icon{
+        display: none;
+    }
+    .Service_title{
+        color: #f99728;
+        font-size: 2rem;
+        background-image: url("img/服务流程icon.png");
+        background-repeat: no-repeat;
+        background-size:23px 23px;
+        background-position:34% 0%;
+        
+    }
+}
+/*流程图部分*/
+.Service_pic{
+    margin-top: 100px;
+    position: relative;
+}
+.Service_pic_img{
+    width: 30%;
+}
+@media (max-width: 768px) {
+    .Service_pic{
+        width: 768px;
+    }
+}
+@media (max-width: 768px) {
+    .Service_pic_img{
+        width: 221px;
+    }
+}
+/*step1*/
+.step1{
+    font-family: DIN Condensed;
+    color: #494949;
+}
+.step1_num{
+    position: absolute;
+    top:-0.1%;
+    left: 60.4%;
+    color: white;
+    font-size: 4rem;
+}
+.step1_header{
+    position: absolute;
+    top:0.2%;
+    left: 68%;
+    font-size: 2.5rem;
+}
+.step1_img{
+    position: absolute;
+    top:-4%;
+    left: 21.6%;
+    width: 19%;
+}
+@media (max-width: 768px) {
+    .step1_num{
+        top:-1.5%;
+        font-size: 2.8rem;
+    }
+    .step1_header{
+        top:-0.8%;
+        font-size: 2rem;
+    }
+}
+
+/*step2*/
+.step2{
+    font-family: DIN Condensed;
+    color: #494949;
+}
+.step2_num{
+    position: absolute;
+    top:18.2%;
+    left: 36.35%;
+    color: white;
+    font-size: 4rem;
+}
+.step2_header{
+    position: absolute;
+    top:18.7%;
+    left: 19%;
+    font-size: 2.5rem;
+}
+.step2_img{
+    position: absolute;
+    top:13.4%;
+    left: 58.6%;
+    width: 19%;
+}
+@media (max-width: 768px) {
+    .step2_num{
+        top:16.9%;
+        left: 36.25%;
+        font-size: 2.8rem;
+    }
+    .step2_header{
+        top:17.7%;
+        left: 17%;
+        font-size: 2rem;
+    }
+}
+
+/*step3*/
+.step3{
+    font-family: DIN Condensed;
+    color: #494949;
+}
+.step3_num{
+    position: absolute;
+    top:36.6%;
+    left: 60.4%;
+    color: white;
+    font-size: 4rem;
+}
+.step3_header{
+    position: absolute;
+    top: 37.3%;
+    left: 68%;
+    font-size: 2.5rem;
+}
+.step3_img{
+    position: absolute;
+    top:31.9%;
+    left: 21.6%;
+    width: 19%;
+}
+@media (max-width: 768px) {
+    .step3_num{
+        top:35.3%;
+        left: 60.2%;
+        font-size: 2.8rem;
+    }
+    .step3_header{
+        top: 36.3%;
+        left: 68%;
+        font-size: 2rem;
+    }
+}
+
+/*step4*/
+.step4{
+    font-family: DIN Condensed;
+    color: #494949;
+}
+.step4_num{
+    position: absolute;
+    top:55%;
+    left: 36.35%;
+    color: white;
+    font-size: 4rem;
+}
+.step4_header{
+    position: absolute;
+    top: 54.1%;
+    left: 21.35%;
+    font-size: 2.5rem;
+}
+.step4_img{
+    position: absolute;
+    top:50.3%;
+    left: 58.6%;
+    width: 19%;
+}
+@media (max-width: 768px) {
+    .step4_num{
+        top:53.8%;
+        left: 36.25%;
+        font-size: 2.8rem;
+    }
+    .step4_header{
+        top: 52.1%;
+        left: 19.5%;
+        font-size: 2rem;
+    }
+}
+
+/*step5*/
+.step5{
+    font-family: DIN Condensed;
+    color: #494949;
+}
+.step5_num{
+    position: absolute;
+    top:73.5%;
+    left: 60.35%;
+    color: white;
+    font-size: 4rem;
+}
+.step5_header{
+    position: absolute;
+    top: 73.9%;
+    left: 68%;
+    font-size: 2.5rem;
+}
+.step5_img{
+    position: absolute;
+    top:69.1%;
+    left: 21.6%;
+    width: 19%;
+}
+@media (max-width: 768px) {
+    .step5_num{
+        top:72%;
+        left: 60.2%;
+        font-size: 2.8rem;
+    }
+    .step5_header{
+        top: 72.9%;
+        left: 68%;
+        font-size: 2rem;
+    }
+}
+
+
+/*step6*/
+.step6{
+    font-family: DIN Condensed;
+    color: #494949;
+}
+.step6_num{
+    position: absolute;
+    top:91.8%;
+    left: 36.35%;
+    color: white;
+    font-size: 4rem;
+}
+.step6_header{
+    position: absolute;
+    top: 92.5%;
+    left: 23.1%;
+    font-size: 2.5rem;
+}
+.step6_img{
+    position: absolute;
+    top:86.4%;
+    left: 58.6%;
+    width: 19%;
+}
+@media (max-width: 768px) {
+    .step6_num{
+        top:90.4%;
+        left: 36.25%;
+        font-size: 2.8rem;
+    }
+    .step6_header{
+        top: 90.5%;
+        left: 22.3%;
+        font-size: 2rem;
+    }
+}
+/*** Service_flow ***/
+
+
+
+
+/*** 课程特色 ***/
+.course_characteristics{
+    background-color: #f4f4f4;
+    width: 100%;
+    margin-top: 200px;
+}
+.character_img_box{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-left: 150px;
+}
+.character_img{
+    width: 80%;
+}
+.character_word_box{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-left: 50px;
+}
+.character_title{
+    color: #f99728;
+    font-size: 2.5rem;
+}
+.characters_list{
+    margin-top: 30px;
+}
+.characters{
+    margin-top: 30px;
+}
+.case_list1{
+    margin-bottom: 50px;
+}
+/*** 课程特色 ***/
+
+
+
+/*** 成功案例 ***/
+.Successful_title{
+    color: #f99728;
+    font-size: 2.5rem;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.enterprise_name{
+    margin-top: 20px;
+}
+.baojie{
+    width: 50%;
+}
+.zara{
+    width: 75%;
+}
+.jialefu{
+    width: 80%;
+}
+/*** 成功案例 ***/

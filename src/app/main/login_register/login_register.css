@@ -1,0 +1,41 @@
+/* @media (max-width: @screen-xs-max) {
+	超小设备（手机，小于 768px）
+} */
+/* @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+	小型设备（平板电脑，768px 起）
+} */ 
+/* @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+	中型设备（台式电脑，992px 起）
+} */
+/* @media (min-width: @screen-lg-min) {
+	大型设备（大台式电脑，1200px 起）
+} */
+	.login_register{
+		background-size: cover;
+		font-size: 16px;
+	}
+	.form{
+		background: rgba(255,255,255,0.2);
+		width:400px;
+		margin:100px auto;
+	}
+	#login_form{
+		display: block;
+	}
+			
+	#register_form{
+		display: none;
+	}
+	.fa{
+		display: inline-block;
+		top: 27px;
+		left: 6px;
+		position: relative;
+		color: #ccc;
+	}
+	input[type="text"],input[type="password"]{
+		padding-left:26px;
+	}
+	.checkbox{
+		padding-left:21px;
+	}
